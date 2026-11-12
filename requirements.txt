@@ -1,0 +1,11 @@
+Pillow
+numpy
+opencv-python
+
+# Pinned below 1.0: mediapipe 1.0.x crashes on Apple Silicon macOS when the
+# face detector starts up. 0.10.35 works fine.
+mediapipe<1.0
+
+# YOLO, for finding whole people. Installing this also pulls in PyTorch,
+# so it is a large download the first time.
+ultralytics

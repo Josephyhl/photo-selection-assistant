@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Generated output (keep the folder, ignore its contents)
+results/*
+!results/.gitkeep
+
+# Local sample photos (keep the folder, ignore its contents)
+data/sample_photos/*
+!data/sample_photos/.gitkeep
+
+# Local training datasets
+/data/*
+!/data/sample_photos/
+
+# Local tool settings and secrets
+.claude/
+.env
+.env.*
+!.env.example
